@@ -8,15 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		51F07BE31ED77293007A5429 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07BE21ED77293007A5429 /* AppDelegate.swift */; };
-		51F07BE51ED77293007A5429 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07BE41ED77293007A5429 /* ViewController.swift */; };
 		51F07BE81ED77293007A5429 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F07BE61ED77293007A5429 /* Main.storyboard */; };
 		51F07BEA1ED77293007A5429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F07BE91ED77293007A5429 /* Assets.xcassets */; };
 		51F07BED1ED77293007A5429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F07BEB1ED77293007A5429 /* LaunchScreen.storyboard */; };
 		51F07BF81ED77293007A5429 /* Walmart_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07BF71ED77293007A5429 /* Walmart_AssessmentTests.swift */; };
-		51F07C091ED7733E007A5429 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C021ED7733E007A5429 /* MoviesViewController.swift */; };
-		51F07C0A1ED7733E007A5429 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C031ED7733E007A5429 /* DetailMovieViewController.swift */; };
-		51F07C0B1ED7733E007A5429 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C051ED7733E007A5429 /* CustomCollectionViewCell.swift */; };
-		51F07C0C1ED7733E007A5429 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C071ED7733E007A5429 /* MovieModel.swift */; };
+		51F07C171ED77751007A5429 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C131ED77751007A5429 /* CustomCollectionViewCell.swift */; };
+		51F07C181ED77751007A5429 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C141ED77751007A5429 /* DetailMovieViewController.swift */; };
+		51F07C191ED77751007A5429 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C151ED77751007A5429 /* MovieModel.swift */; };
+		51F07C1A1ED77751007A5429 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C161ED77751007A5429 /* MoviesViewController.swift */; };
 		82886C865BE4ECB427C193EF /* Pods_Walmart_AssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C471C8F797F3847450A775 /* Pods_Walmart_AssessmentTests.framework */; };
 		DE13590F1DD6C15D9BC38C28 /* Pods_Walmart_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFDC92008F79CBF841F01DC /* Pods_Walmart_Assessment.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +37,6 @@
 		48C471C8F797F3847450A775 /* Pods_Walmart_AssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walmart_AssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F07BDF1ED77293007A5429 /* Walmart Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walmart Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F07BE21ED77293007A5429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		51F07BE41ED77293007A5429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		51F07BE71ED77293007A5429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		51F07BE91ED77293007A5429 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		51F07BEC1ED77293007A5429 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -46,10 +44,10 @@
 		51F07BF31ED77293007A5429 /* Walmart AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Walmart AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F07BF71ED77293007A5429 /* Walmart_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walmart_AssessmentTests.swift; sourceTree = "<group>"; };
 		51F07BF91ED77293007A5429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		51F07C021ED7733E007A5429 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
-		51F07C031ED7733E007A5429 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
-		51F07C051ED7733E007A5429 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
-		51F07C071ED7733E007A5429 /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		51F07C131ED77751007A5429 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		51F07C141ED77751007A5429 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
+		51F07C151ED77751007A5429 /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		51F07C161ED77751007A5429 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		D49DD2BF70F6EF365CAE3808 /* Pods-Walmart Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walmart Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Walmart Assessment/Pods-Walmart Assessment.release.xcconfig"; sourceTree = "<group>"; };
 		ECFDC92008F79CBF841F01DC /* Pods_Walmart_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walmart_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -106,11 +104,10 @@
 		51F07BE11ED77293007A5429 /* Walmart Assessment */ = {
 			isa = PBXGroup;
 			children = (
-				51F07C041ED7733E007A5429 /* Controller */,
-				51F07C061ED7733E007A5429 /* View */,
-				51F07C081ED7733E007A5429 /* Model */,
+				51F07C1D1ED77761007A5429 /* Controller */,
+				51F07C1C1ED7775C007A5429 /* View */,
+				51F07C1B1ED77756007A5429 /* Model */,
 				51F07BE21ED77293007A5429 /* AppDelegate.swift */,
-				51F07BE41ED77293007A5429 /* ViewController.swift */,
 				51F07BE61ED77293007A5429 /* Main.storyboard */,
 				51F07BE91ED77293007A5429 /* Assets.xcassets */,
 				51F07BEB1ED77293007A5429 /* LaunchScreen.storyboard */,
@@ -128,32 +125,29 @@
 			path = "Walmart AssessmentTests";
 			sourceTree = "<group>";
 		};
-		51F07C041ED7733E007A5429 /* Controller */ = {
+		51F07C1B1ED77756007A5429 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				51F07C021ED7733E007A5429 /* MoviesViewController.swift */,
-				51F07C031ED7733E007A5429 /* DetailMovieViewController.swift */,
-			);
-			name = Controller;
-			path = "../../Fun with Movies/Fun with Movies";
-			sourceTree = "<group>";
-		};
-		51F07C061ED7733E007A5429 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				51F07C051ED7733E007A5429 /* CustomCollectionViewCell.swift */,
-			);
-			name = View;
-			path = "../../Fun with Movies/Fun with Movies";
-			sourceTree = "<group>";
-		};
-		51F07C081ED7733E007A5429 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				51F07C071ED7733E007A5429 /* MovieModel.swift */,
+				51F07C151ED77751007A5429 /* MovieModel.swift */,
 			);
 			name = Model;
-			path = "../../Fun with Movies/Fun with Movies";
+			sourceTree = "<group>";
+		};
+		51F07C1C1ED7775C007A5429 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51F07C131ED77751007A5429 /* CustomCollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		51F07C1D1ED77761007A5429 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51F07C161ED77751007A5429 /* MoviesViewController.swift */,
+				51F07C141ED77751007A5429 /* DetailMovieViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		BF05F2380034A7309A9C52AC /* Pods */ = {
@@ -371,12 +365,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51F07C0C1ED7733E007A5429 /* MovieModel.swift in Sources */,
-				51F07C0A1ED7733E007A5429 /* DetailMovieViewController.swift in Sources */,
-				51F07C0B1ED7733E007A5429 /* CustomCollectionViewCell.swift in Sources */,
-				51F07BE51ED77293007A5429 /* ViewController.swift in Sources */,
+				51F07C191ED77751007A5429 /* MovieModel.swift in Sources */,
+				51F07C1A1ED77751007A5429 /* MoviesViewController.swift in Sources */,
 				51F07BE31ED77293007A5429 /* AppDelegate.swift in Sources */,
-				51F07C091ED7733E007A5429 /* MoviesViewController.swift in Sources */,
+				51F07C181ED77751007A5429 /* DetailMovieViewController.swift in Sources */,
+				51F07C171ED77751007A5429 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

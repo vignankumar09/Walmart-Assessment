@@ -12,7 +12,7 @@
         <!--Movies-->
         <scene sceneID="F9C-ze-BQs">
             <objects>
-                <viewController id="xiM-gm-OwW" customClass="MoviesViewController" customModule="Fun_with_Movies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="xiM-gm-OwW" customClass="MoviesViewController" customModule="Walmart_Assessment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="pdS-G1-xbv"/>
                         <viewControllerLayoutGuide type="bottom" id="pwW-hY-A2c"/>
@@ -38,7 +38,7 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="ahH-K8-f7s" customClass="CustomCollectionViewCell" customModule="Fun_with_Movies" customModuleProvider="target">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="ahH-K8-f7s" customClass="CustomCollectionViewCell" customModule="Walmart_Assessment" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="137" height="210"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -107,7 +107,7 @@
         <!--Detail Movie View Controller-->
         <scene sceneID="d9L-ik-O8h">
             <objects>
-                <viewController id="siz-45-UzP" customClass="DetailMovieViewController" customModule="Fun_with_Movies" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="siz-45-UzP" customClass="DetailMovieViewController" customModule="Walmart_Assessment" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="m6n-Xa-vJY"/>
                         <viewControllerLayoutGuide type="bottom" id="c2Y-n2-MLa"/>
@@ -188,6 +188,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="image" width="16" height="16"/>
+        <image name="image" width="500" height="500"/>
     </resources>
 </document>
