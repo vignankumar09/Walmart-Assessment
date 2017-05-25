@@ -7,6 +7,8 @@ target 'Walmart Assessment' do
 
   # Pods for Walmart Assessment
   pod 'Alamofire', '~> 4.4'
+  pod 'SDWebImage', '~>3.8'
+  
   target 'Walmart AssessmentTests' do
     inherit! :search_paths
     # Pods for testing

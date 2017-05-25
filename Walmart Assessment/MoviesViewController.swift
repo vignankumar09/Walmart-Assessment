@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import SDWebImage
 
 class MoviesViewController: UIViewController,UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout, UISearchBarDelegate {
 
@@ -78,24 +79,9 @@ class MoviesViewController: UIViewController,UICollectionViewDelegate, UICollect
         if movies[indexPath.row].movieImage != nil {
             imageurl = "\(baseURL)\(movies[indexPath.row].movieImage!)"
             url = URL(string: imageurl)
-            cell.movieImage.image = UIImage(named: "image")
+            cell.movieImage.sd_setImage(with: url, placeholderImage: UIImage(named: "image"))
         } else {
             cell.movieImage.image = UIImage(named: "image")
-        }
-        
-        if let img = imageCache[imageurl] {
-            cell.movieImage.image = img
-        } else if movies[indexPath.row].movieImage != nil{
-            DispatchQueue.global().async {
-                let data = try? Data(contentsOf: url!)
-                let image = UIImage(data: data!)
-                self.imageCache[imageurl] = image
-                DispatchQueue.main.async {
-                    if let cellToUpdate = self.movieCollectionView.cellForItem(at: indexPath) {
-                        (cellToUpdate as! CustomCollectionViewCell).movieImage.image = image
-                    }
-                }
-            }
         }
         return cell
     }
