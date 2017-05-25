@@ -13,6 +13,12 @@
 		51F07BEA1ED77293007A5429 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51F07BE91ED77293007A5429 /* Assets.xcassets */; };
 		51F07BED1ED77293007A5429 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51F07BEB1ED77293007A5429 /* LaunchScreen.storyboard */; };
 		51F07BF81ED77293007A5429 /* Walmart_AssessmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07BF71ED77293007A5429 /* Walmart_AssessmentTests.swift */; };
+		51F07C091ED7733E007A5429 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C021ED7733E007A5429 /* MoviesViewController.swift */; };
+		51F07C0A1ED7733E007A5429 /* DetailMovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C031ED7733E007A5429 /* DetailMovieViewController.swift */; };
+		51F07C0B1ED7733E007A5429 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C051ED7733E007A5429 /* CustomCollectionViewCell.swift */; };
+		51F07C0C1ED7733E007A5429 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51F07C071ED7733E007A5429 /* MovieModel.swift */; };
+		82886C865BE4ECB427C193EF /* Pods_Walmart_AssessmentTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 48C471C8F797F3847450A775 /* Pods_Walmart_AssessmentTests.framework */; };
+		DE13590F1DD6C15D9BC38C28 /* Pods_Walmart_Assessment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECFDC92008F79CBF841F01DC /* Pods_Walmart_Assessment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,6 +32,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		25F3E615CFB3A095DCF98AD1 /* Pods-Walmart AssessmentTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walmart AssessmentTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Walmart AssessmentTests/Pods-Walmart AssessmentTests.debug.xcconfig"; sourceTree = "<group>"; };
+		293CC4EEDB55E4697245CF2F /* Pods-Walmart AssessmentTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walmart AssessmentTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Walmart AssessmentTests/Pods-Walmart AssessmentTests.release.xcconfig"; sourceTree = "<group>"; };
+		381D3D0DE8FA7DABF246F763 /* Pods-Walmart Assessment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walmart Assessment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Walmart Assessment/Pods-Walmart Assessment.debug.xcconfig"; sourceTree = "<group>"; };
+		48C471C8F797F3847450A775 /* Pods_Walmart_AssessmentTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walmart_AssessmentTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F07BDF1ED77293007A5429 /* Walmart Assessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Walmart Assessment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F07BE21ED77293007A5429 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51F07BE41ED77293007A5429 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +46,12 @@
 		51F07BF31ED77293007A5429 /* Walmart AssessmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Walmart AssessmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51F07BF71ED77293007A5429 /* Walmart_AssessmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Walmart_AssessmentTests.swift; sourceTree = "<group>"; };
 		51F07BF91ED77293007A5429 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51F07C021ED7733E007A5429 /* MoviesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
+		51F07C031ED7733E007A5429 /* DetailMovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailMovieViewController.swift; sourceTree = "<group>"; };
+		51F07C051ED7733E007A5429 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		51F07C071ED7733E007A5429 /* MovieModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
+		D49DD2BF70F6EF365CAE3808 /* Pods-Walmart Assessment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Walmart Assessment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Walmart Assessment/Pods-Walmart Assessment.release.xcconfig"; sourceTree = "<group>"; };
+		ECFDC92008F79CBF841F01DC /* Pods_Walmart_Assessment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Walmart_Assessment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE13590F1DD6C15D9BC38C28 /* Pods_Walmart_Assessment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +67,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82886C865BE4ECB427C193EF /* Pods_Walmart_AssessmentTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36EF7468D24F0DFA60CF670A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECFDC92008F79CBF841F01DC /* Pods_Walmart_Assessment.framework */,
+				48C471C8F797F3847450A775 /* Pods_Walmart_AssessmentTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		51F07BD61ED77293007A5429 = {
 			isa = PBXGroup;
 			children = (
 				51F07BE11ED77293007A5429 /* Walmart Assessment */,
 				51F07BF61ED77293007A5429 /* Walmart AssessmentTests */,
 				51F07BE01ED77293007A5429 /* Products */,
+				BF05F2380034A7309A9C52AC /* Pods */,
+				36EF7468D24F0DFA60CF670A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,6 +106,9 @@
 		51F07BE11ED77293007A5429 /* Walmart Assessment */ = {
 			isa = PBXGroup;
 			children = (
+				51F07C041ED7733E007A5429 /* Controller */,
+				51F07C061ED7733E007A5429 /* View */,
+				51F07C081ED7733E007A5429 /* Model */,
 				51F07BE21ED77293007A5429 /* AppDelegate.swift */,
 				51F07BE41ED77293007A5429 /* ViewController.swift */,
 				51F07BE61ED77293007A5429 /* Main.storyboard */,
@@ -96,6 +128,45 @@
 			path = "Walmart AssessmentTests";
 			sourceTree = "<group>";
 		};
+		51F07C041ED7733E007A5429 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				51F07C021ED7733E007A5429 /* MoviesViewController.swift */,
+				51F07C031ED7733E007A5429 /* DetailMovieViewController.swift */,
+			);
+			name = Controller;
+			path = "../../Fun with Movies/Fun with Movies";
+			sourceTree = "<group>";
+		};
+		51F07C061ED7733E007A5429 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				51F07C051ED7733E007A5429 /* CustomCollectionViewCell.swift */,
+			);
+			name = View;
+			path = "../../Fun with Movies/Fun with Movies";
+			sourceTree = "<group>";
+		};
+		51F07C081ED7733E007A5429 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				51F07C071ED7733E007A5429 /* MovieModel.swift */,
+			);
+			name = Model;
+			path = "../../Fun with Movies/Fun with Movies";
+			sourceTree = "<group>";
+		};
+		BF05F2380034A7309A9C52AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				381D3D0DE8FA7DABF246F763 /* Pods-Walmart Assessment.debug.xcconfig */,
+				D49DD2BF70F6EF365CAE3808 /* Pods-Walmart Assessment.release.xcconfig */,
+				25F3E615CFB3A095DCF98AD1 /* Pods-Walmart AssessmentTests.debug.xcconfig */,
+				293CC4EEDB55E4697245CF2F /* Pods-Walmart AssessmentTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51F07BFC1ED77293007A5429 /* Build configuration list for PBXNativeTarget "Walmart Assessment" */;
 			buildPhases = (
+				725580F71F936ED613BC01A2 /* [CP] Check Pods Manifest.lock */,
 				51F07BDB1ED77293007A5429 /* Sources */,
 				51F07BDC1ED77293007A5429 /* Frameworks */,
 				51F07BDD1ED77293007A5429 /* Resources */,
+				E5ACD409835A2638F34E1999 /* [CP] Embed Pods Frameworks */,
+				381418CB506F24FFA299AFE8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +194,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51F07BFF1ED77293007A5429 /* Build configuration list for PBXNativeTarget "Walmart AssessmentTests" */;
 			buildPhases = (
+				DF1A045D80C069F69532B922 /* [CP] Check Pods Manifest.lock */,
 				51F07BEF1ED77293007A5429 /* Sources */,
 				51F07BF01ED77293007A5429 /* Frameworks */,
 				51F07BF11ED77293007A5429 /* Resources */,
+				BD325A56D04C8F6AF3919781 /* [CP] Embed Pods Frameworks */,
+				7422A876C19B2AA6C009D06B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,13 +273,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		381418CB506F24FFA299AFE8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walmart Assessment/Pods-Walmart Assessment-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		725580F71F936ED613BC01A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7422A876C19B2AA6C009D06B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walmart AssessmentTests/Pods-Walmart AssessmentTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BD325A56D04C8F6AF3919781 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walmart AssessmentTests/Pods-Walmart AssessmentTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF1A045D80C069F69532B922 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E5ACD409835A2638F34E1999 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Walmart Assessment/Pods-Walmart Assessment-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51F07BDB1ED77293007A5429 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				51F07C0C1ED7733E007A5429 /* MovieModel.swift in Sources */,
+				51F07C0A1ED7733E007A5429 /* DetailMovieViewController.swift in Sources */,
+				51F07C0B1ED7733E007A5429 /* CustomCollectionViewCell.swift in Sources */,
 				51F07BE51ED77293007A5429 /* ViewController.swift in Sources */,
 				51F07BE31ED77293007A5429 /* AppDelegate.swift in Sources */,
+				51F07C091ED7733E007A5429 /* MoviesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +513,7 @@
 		};
 		51F07BFD1ED77293007A5429 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381D3D0DE8FA7DABF246F763 /* Pods-Walmart Assessment.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V84G2DH96Q;
@@ -352,6 +527,7 @@
 		};
 		51F07BFE1ED77293007A5429 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D49DD2BF70F6EF365CAE3808 /* Pods-Walmart Assessment.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V84G2DH96Q;
@@ -365,6 +541,7 @@
 		};
 		51F07C001ED77293007A5429 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25F3E615CFB3A095DCF98AD1 /* Pods-Walmart AssessmentTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -380,6 +557,7 @@
 		};
 		51F07C011ED77293007A5429 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 293CC4EEDB55E4697245CF2F /* Pods-Walmart AssessmentTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -412,6 +590,7 @@
 				51F07BFE1ED77293007A5429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		51F07BFF1ED77293007A5429 /* Build configuration list for PBXNativeTarget "Walmart AssessmentTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +599,7 @@
 				51F07C011ED77293007A5429 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

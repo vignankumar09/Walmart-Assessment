@@ -34,5 +34,15 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>http://api.themoviedb.org/3/discover/movie?api_key=ab41356b33d100ec61e6c098ecc92140&amp;sort_by=popularity.desc</key>
+			<string></string>
+		</dict>
+	</dict>
 </dict>
 </plist>
