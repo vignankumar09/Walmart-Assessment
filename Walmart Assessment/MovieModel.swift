@@ -2,7 +2,7 @@
 //  MovieModel.swift
 //  TMDB
 //
-//  Created by Deepa Reddy on 3/9/17.
+//  Created by Vignan on 3/9/17.
 //  Copyright © 2017 Deepa Reddy. All rights reserved.
 //
 
