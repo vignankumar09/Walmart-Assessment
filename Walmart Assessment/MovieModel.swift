@@ -3,7 +3,7 @@
 //  TMDB
 //
 //  Created by Vignan on 3/9/17.
-//  Copyright © 2017 Deepa Reddy. All rights reserved.
+//  Copyright © 2017 Vignan. All rights reserved.
 //
 
 import Foundation
