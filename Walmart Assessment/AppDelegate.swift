@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Walmart Assessment
 //
-//  Created by Vignan Sankati on 5/25/17.
+//  Created by Vignan on 5/25/17.
 //  Copyright © 2017 Vignan. All rights reserved.
 //
 
